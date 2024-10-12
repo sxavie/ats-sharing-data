@@ -1,0 +1,18 @@
+div.container {
+    border: 1px solid red;
+    text-align: center;
+}
+
+div.component-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    height: 50vh;
+    align-items: center;
+}
+
+.child {
+    border: 1px solid green;
+    flex: 1 1 auto;
+    text-align: center;
+}
