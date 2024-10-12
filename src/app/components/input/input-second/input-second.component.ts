@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './input-second.component.css'
 })
 export class InputSecondComponent {
+  @Input() lastname: string = '';
 }

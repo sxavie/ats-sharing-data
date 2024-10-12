@@ -15,4 +15,8 @@ const COMPONENTS = [
   styleUrl: './input.component.css'
 })
 export class InputComponent {
+  user = {
+    name: 'Santiago',
+    lastName: 'Hernandez'
+  }
 }
