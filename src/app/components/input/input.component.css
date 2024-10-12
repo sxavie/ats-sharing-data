@@ -1,6 +1,9 @@
 div.container {
-    border: 1px solid red;
     text-align: center;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 div.component-wrapper {
@@ -17,4 +20,6 @@ div.component-wrapper {
     border: 1px solid green;
     flex: 1 1 auto;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
 }

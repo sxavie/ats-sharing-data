@@ -1,1 +1,13 @@
-<p>output-first works!</p>
+<h4> Child Component </h4>
+
+<div>
+    <div>
+        <label for="name">Name </label>
+        <input type="text" [(ngModel)]="name">
+    </div>
+
+    <div>
+        <p></p>
+        <button (click)="sendNameToParent()">Send Name</button>
+    </div>
+</div>
