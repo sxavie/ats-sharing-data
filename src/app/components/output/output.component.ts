@@ -18,4 +18,17 @@ const COMPONENTS = [
 })
 export class OutputComponent {
 
+  nameValue = 'Random Name';
+  lastnameValue = 'Random Lastname';
+
+  readName(name: string) {
+    this.nameValue = name;
+  }
+
+  readLastname(lastname: string) {
+    this.lastnameValue = lastname;
+  }
+
+  get name() { return `${this.nameValue} ${this.lastnameValue}` }
+
 }
