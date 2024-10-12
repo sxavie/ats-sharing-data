@@ -1,0 +1,9 @@
+<div class="container">
+    <h5> Componente User-FullName </h5>
+    <p>{{ user.name }} {{ user.lastName }}</p>
+
+    <div class="component-wrapper">
+        <app-input-first class="child" [user-name]="user.name" />
+        <app-input-second class="child" [lastname]="user.lastName" />
+    </div>
+</div>

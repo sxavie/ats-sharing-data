@@ -7,11 +7,13 @@ div.component-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    height: 50vh;
     align-items: center;
+    padding: 1rem;
 }
 
 .child {
+    margin-top: 3rem;
+    margin-bottom: 3rem;;
     border: 1px solid green;
     flex: 1 1 auto;
     text-align: center;
