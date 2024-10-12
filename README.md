@@ -1,27 +1,32 @@
-# Myapp
+# ATS-sharing-data
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
-## Development server
+## Component Communication in Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This repository demonstrates various techniques for sharing data between Angular components. It includes practical examples and code snippets for:
 
-## Code scaffolding
+### Input and Output Properties
+Using `@Input()` to pass data from parent to child components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Using `@Output()` with EventEmitter to send data from child to parent components.
 
-## Build
+### ViewChild
+Using `@ViewChild` to access child component properties and methods.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Service with Observables
+Creating a shared service to manage data and state using `RxJS` Observables.
 
-## Running unit tests
+Implementing a service to provide data to multiple components.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Signals (New)
+Using Angular signals to broadcast and listen for events across the application.
 
-## Running end-to-end tests
+Leveraging signals for decoupled and scalable event handling.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### EventEmitter
+Utilizing `EventEmitter` for custom event communication between components.
 
-## Further help
+#
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Dive into the code examples to explore each method in detail and see how they can be implemented effectively in your Angular applications.
