@@ -42,6 +42,8 @@
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
 }
 
 .notes-list li:hover {
@@ -52,7 +54,7 @@ div.component-wrapper {
     margin-top: 5rem;
     width: 100%;
     border-radius: .5rem;
-    background-color: #fff; 
+    background-color: #fff;
     /* border: 1px solid red; */
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

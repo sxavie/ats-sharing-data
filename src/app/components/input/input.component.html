@@ -1,6 +1,10 @@
 <div class="container">
     <h5> Componente User-FullName </h5>
-    <p>{{ user.name }} {{ user.lastName }}</p>
+
+    <div class="input-container">
+        <input type="text" placeholder="What's your name?" [(ngModel)]="user.name">
+        <input type="text" placeholder="What's your last name?" [(ngModel)]="user.lastName">
+    </div>
 
     <div class="component-wrapper">
         <app-input-first class="child" [user-name]="user.name" />

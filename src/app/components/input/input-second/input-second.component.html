@@ -1,2 +1,5 @@
 <h5> Component User-LastName </h5>
-<p> {{lastname}} </p>
+
+<div class="input-container">
+    <input disabled type="text" [value]="lastname || 'empty'"/> 
+</div>
