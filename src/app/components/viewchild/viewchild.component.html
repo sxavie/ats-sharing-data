@@ -1,1 +1,12 @@
-<p>viewchild works!</p>
+<div class="container">
+    <h3> viewchild.component </h3>
+
+    <div class="input-container">
+        <input type="text" disabled [value]="username" />
+        <button (click)="getValue()"> Get Value </button>
+    </div>
+
+    <div class="component-wrapper">
+        <app-viewchild-child class="child"></app-viewchild-child>
+    </div>
+</div>

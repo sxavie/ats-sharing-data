@@ -14,7 +14,8 @@ export class DataService {
   }
 
   setMessage(message: string) {
-    this.messageSubject.next(message)
+    const newMessage = (message) ? message : 'Empty'; 
+    this.messageSubject.next(newMessage)
   }
 
 }

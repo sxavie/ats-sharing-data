@@ -1,13 +1,8 @@
 <h4> Child Component </h4>
 
 <div>
-    <div>
-        <label for="name">Last Name </label>
-        <input type="text" [(ngModel)]="lastname">
-    </div>
-
-    <div>
-        <p></p>
-        <button (click)="sendLastnameToParent()">Send Name</button>
+    <div class="input-container">
+        <input type="text" [(ngModel)]="lastname" placeholder="Enter Last name">
+        <button (click)="sendLastnameToParent()">Send Lastname</button>
     </div>
 </div>

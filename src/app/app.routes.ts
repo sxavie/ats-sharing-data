@@ -17,9 +17,6 @@ export const routes: Routes = [{
         path: 'services',
         loadComponent: () => import('./components/services/services.component').then(m => m.ServicesComponent)
     },{
-        path: 'event-emmiter',
-        loadComponent: () => import('./components/eventemmiter/eventemmiter.component').then(m => m.EventemmiterComponent)
-    },{
         path: 'signals',
         loadComponent: () => import('./components/signals/signals.component').then(m => m.SignalsComponent)
     }]

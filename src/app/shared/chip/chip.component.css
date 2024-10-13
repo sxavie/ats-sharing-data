@@ -1,0 +1,37 @@
+.container {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+}
+
+.chip-text {
+    margin-right: 10px;
+}
+
+.chip-closebtn {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+.chip-closebtn:hover {
+    color: #000;
+}
