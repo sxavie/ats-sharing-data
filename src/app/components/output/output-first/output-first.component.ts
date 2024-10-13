@@ -1,20 +1,14 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-output-first',
   standalone: true,
-  imports: [FormsModule],
+  imports: [],
   templateUrl: './output-first.component.html',
   styleUrl: './output-first.component.css'
 })
 export class OutputFirstComponent {
-  @Output() nameEmitter: EventEmitter<string> = new EventEmitter()
 
   name = '';
-
-  sendNameToParent() {
-    this.nameEmitter.emit(this.name)
-  }
 
 }

@@ -10,6 +10,6 @@ import { FormsModule } from '@angular/forms';
 })
 export class ViewchildChildComponent {
 
-  username = "Santiago"
+  // username = "Santiago"
 
 }

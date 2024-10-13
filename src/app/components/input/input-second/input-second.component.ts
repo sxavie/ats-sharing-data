@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-input-second',
@@ -8,5 +8,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './input-second.component.css'
 })
 export class InputSecondComponent {
-  @Input() lastname: string = '';
+
 }

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-input-first',
@@ -8,5 +8,4 @@ import { Component, Input } from '@angular/core';
   styleUrl: './input-first.component.css'
 })
 export class InputFirstComponent {
-  @Input('user-name') name: string = '';
 }

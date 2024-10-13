@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { InputFirstComponent } from './input-first/input-first.component';
 import { InputSecondComponent } from './input-second/input-second.component';
-import { FormsModule } from '@angular/forms';
 
 const COMPONENTS = [
   InputFirstComponent,
@@ -11,7 +10,7 @@ const COMPONENTS = [
 @Component({
   selector: 'app-input',
   standalone: true,
-  imports: [COMPONENTS, FormsModule],
+  imports: [COMPONENTS],
   templateUrl: './input.component.html',
   styleUrl: './input.component.css'
 })

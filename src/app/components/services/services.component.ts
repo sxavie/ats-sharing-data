@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { ServicesFirstComponent } from './services-first/services-first.component';
 import { ServicesOtherComponent } from './services-other/services-other.component';
 
